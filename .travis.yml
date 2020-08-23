@@ -8,3 +8,8 @@ install:
 
 script:
     - yarn run build
+
+deploy: 
+    provider: heroku
+    api_key:
+      secure: "QINCP9k2PRri6oVIfOnJBi26WYa2lF4o3RUHvVwLLQgGv3cdK9SgAxlIRXnAvbskkLXISMdbiJg/PKTYzhQucJgtoL3PdjHVkED4u9jqozGBEhrQO+sSiX1DEqqVaipJqXKy3frzeV7UYtPwM/OBgsWXFpSYmQIZ0/fa10wlz/X9lz4I8eSDT8MrYrMyZINHUc6qWjYrfDC6DJ8F4Uuv8dveH0OBwnxcyZ9eRvl2/alYIv4BLl4aHIgWvtKioRJfocchm1UeCuLfYeBSy6SSAdSp30NgUHLxQwmN+reMrRuWtDuhKWjDjy4aO9meynm0iG491UIrYe6oiHv3FIAuIbSxKYOrPxIwrWopj6yGRG4y/ZMGrhJkV0/TP6WccpRpziD3t9RnfIG3PijstP+3CL9/h82Er6DXTcFnIOePC+BCtFQrMU2jsLKRIcw+wZPz+2TSfAp4+AvuE8XTHBhLhgAmHDryJiP8pNzI5sI9rMV5nn/ottJuOOhpBPkZ9ImK17TdU/o7KSRa5FAoym4ilyIcmvbZFZ1PBugMjiarwBjeTWbdA7/T/jTlS4OEZ+XtgmNH93cFUUD7o5FWVFrMwupB10VlFm8Cg2yqa6kQBkBk1u5b3fSBBr5cz6zqUeUcW/KvssHwrFrn0VKSFUpb5acj1vv5h8DPdZeVyZjaYDM="
